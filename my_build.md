@@ -21,7 +21,11 @@ We are using Torch 1.13, Python 3.8, and CUDA 11.6
 ```
 conda create -n pointnet python==3.8
 ```
-2. Install the project using setup.py - except comment out pytorch and install pytorch separately.
+2. Install CUDA ToolKit 11.6
+```
+conda install nvidia/label/cuda-11.6.0::cuda-toolkit
+```
+3. Install the project using setup.py - except comment out pytorch and install pytorch separately.
 ```
 conda activate pointnet
 
