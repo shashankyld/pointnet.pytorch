@@ -28,6 +28,6 @@ conda install nvidia/label/cuda-11.6.0::cuda-toolkit
 ```
 3. Install the project using setup.py - except comment out pytorch and install pytorch separately.
 ```
-
-
+# Install PyTorch 1.13.0 with CUDA 11.6 support
+conda install pytorch==1.13.0 torchvision torchaudio cudatoolkit=11.6 -c pytorch -c nvidia
 ```
